@@ -48,8 +48,10 @@ body{
     /* display: flex;
     align-items: end; */
 }
-.mini-divs img{
-    
+.icons{
+    position: relative;
+    margin-left: 60%;
+    margin-top: -5%;
 }
 .mini-divs-childs{
     background-color: #1C204B;
