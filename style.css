@@ -131,3 +131,19 @@ body{
     line-height: 17.78px;
     color: #BBC0FF;
 }
+.elipse{
+    font-size: 18px;
+    color: #BBC0FF;
+    transition: all 1s ease;
+}
+.elipse:hover{
+    color: white;
+    cursor: pointer;
+}
+.mini-divs-childs:hover{
+    background-color: #33397A;
+}
+.div1-p:hover{
+    color: white;
+    cursor: pointer;
+}
