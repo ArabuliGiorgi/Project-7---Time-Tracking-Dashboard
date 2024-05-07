@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    overflow: hidden;
 }
 h1, p{
     font-family: "Rubik", sans-serif;
@@ -13,9 +14,10 @@ body{
     align-items: center;
 }
 .main{
+    position: relative;
     width: 1110px;
     height: 518px;
-    background-color: aliceblue;
+
     display: grid;
     grid-template-columns: 255px 255px 255px 255px;
     grid-template-rows: 244px 244px;
@@ -25,6 +27,43 @@ body{
 #div1{
     grid-row: 1/-1;
     background-color: #1C204B;
+    border-radius: 15px;
+}
+.div1-child{
+    width: 100%;
+    height: 354px;
+    background-color: #5747EA;
+    padding-left: 32px;
+    padding-top: 37px;
+    border-radius: 15px;
+    margin-bottom: 26px;
+}
+.div1-child img{
+    height: 78px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin-bottom: 43px;
+}
+.p1{
+    font-size: 15px;
+    color: #BBC0FF;
+    font-weight: 400;
+    line-height: 17.78px;
+    margin-bottom: 3px;
+}
+.p2{
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 47.4px;
+    color: white;
+}
+.div1-p{
+    font-size: 18px;
+    line-height: 21.33px;
+    font-weight: 400;
+    color: #7078C9;
+    margin-bottom: 21px;
+    margin-left: 32px;
 }
 #div2{
     background-color: #FF8B64;
@@ -44,18 +83,38 @@ body{
 #div7{
     background-color: #F1C75B;
 }
-.mini-divs{
-    /* display: flex;
-    align-items: end; */
-}
 .icons{
     position: relative;
     margin-left: 60%;
-    margin-top: -5%;
+    margin-top: -4%;
 }
 .mini-divs-childs{
     background-color: #1C204B;
     width: 100%;
     height: 199px;
     margin-top: 20%;
+    position: relative;
+    border-radius: 15px;
+    padding-top: 29px;
+    padding-left: 30px;
+    padding-right: 35px;
+}
+.mini-div-back{
+    margin-bottom: -65%;
+    height: 160px;
+}
+.mini-divs{
+    border-radius: 15px;
+}
+.mini-div-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.mini-div-head p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.33px;
+    color: white;
 }
