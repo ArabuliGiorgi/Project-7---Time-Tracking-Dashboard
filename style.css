@@ -118,3 +118,16 @@ body{
     line-height: 21.33px;
     color: white;
 }
+.main-time{
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 66.36px;
+    color: white;
+    margin-bottom: 8px;
+}
+.date-checked{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17.78px;
+    color: #BBC0FF;
+}
