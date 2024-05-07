@@ -142,10 +142,14 @@ body{
 }
 .mini-divs-childs:hover{
     background-color: #33397A;
-    transition: all 0.5s ease;
+    transition: all 0.5s ease-out;
 }
 .div1-p:hover{
     color: white;
     cursor: pointer;
-    transition: all 0.5s ease;
+    transition: all 0.5s ease-out;
+}
+#div1:hover{
+    background-color: #33397A;
+    transition: all 0.5s ease-out;
 }
